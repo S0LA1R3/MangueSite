@@ -1,0 +1,38 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 4rem 0;
+  width: 100vw;
+}
+
+.Section.blue {
+  background: rgb(11, 107, 168);
+  color: #ffffff;
+}
+
+.Section.default {
+  color: #563939;
+}
+
+.Section .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.Section > h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .Section .content {
+    width: 90%;
+    max-width: 1460px;
+  }
+}

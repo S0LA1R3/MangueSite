@@ -1,0 +1,73 @@
+.Kit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(6, 62, 98);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  color: #ffffff;
+
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 80%;
+  max-width: 400px;
+}
+
+.Kit > h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+.Kit .image {
+  width: 90%;
+}
+
+.Kit .purchase {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.Kit .purchase span {
+  font-weight: 700;
+}
+
+.Kit .purchase a {
+  color: #ffffff;
+  background: rgb(43, 200, 149);
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+
+.Kit img {
+  width: 100%;
+  max-width: 360px;
+}
+
+.Kit > p {
+  font-size: 1.125rem;
+  margin: 0 0 1rem;
+  width: 90%;
+}
+
+.Kit ul {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.Kit ul li {
+  font-size: 1.125rem;
+  list-style: inside;
+}
+
+.Kit ul li.available {
+  color: #ffffff;
+}
+.Kit ul li.notAvailable {
+  color: rgba(255, 255, 255, 0.38);
+}

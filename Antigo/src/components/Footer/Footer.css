@@ -1,0 +1,36 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #563939;
+  color: #ffffff;
+
+  padding: 1.5rem 0 4rem;
+  width: 100vw;
+}
+
+.Footer h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+}
+
+.Footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .Footer {
+    padding: 1.5rem 0 6rem;
+  }
+  .Footer h1 {
+    font-size: 2.25rem;
+  }
+
+  .Footer a {
+    font-size: 1.125rem;
+  }
+}

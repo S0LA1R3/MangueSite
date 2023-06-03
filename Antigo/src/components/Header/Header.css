@@ -1,0 +1,33 @@
+.Header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: rgba(208, 208, 208, 0.23);
+}
+.Header nav :hover{
+  color: rgb(197, 157, 157);
+}
+
+.Header .navbar-expand-md .navbar-nav {
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Header nav img {
+  width: 100px;
+}
+
+.Header nav button {
+  border: none;
+}
+
+.Header .navbar-nav .nav-link {
+  color: rgb(86, 57, 57);
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
